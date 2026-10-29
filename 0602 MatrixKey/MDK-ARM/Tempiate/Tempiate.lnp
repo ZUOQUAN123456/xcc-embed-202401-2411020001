@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+"tempiate\startup_stm32f407xx.o"
+"tempiate\main.o"
+"tempiate\gpio.o"
+"tempiate\stm32f4xx_it.o"
+"tempiate\stm32f4xx_hal_msp.o"
+"tempiate\stm32f4xx_hal_rcc.o"
+"tempiate\stm32f4xx_hal_rcc_ex.o"
+"tempiate\stm32f4xx_hal_flash.o"
+"tempiate\stm32f4xx_hal_flash_ex.o"
+"tempiate\stm32f4xx_hal_flash_ramfunc.o"
+"tempiate\stm32f4xx_hal_gpio.o"
+"tempiate\stm32f4xx_hal_dma_ex.o"
+"tempiate\stm32f4xx_hal_dma.o"
+"tempiate\stm32f4xx_hal_pwr.o"
+"tempiate\stm32f4xx_hal_pwr_ex.o"
+"tempiate\stm32f4xx_hal_cortex.o"
+"tempiate\stm32f4xx_hal.o"
+"tempiate\stm32f4xx_hal_exti.o"
+"tempiate\system_stm32f4xx.o"
+--strict --scatter "Tempiate\Tempiate.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Tempiate.map" -o Tempiate\Tempiate.axf

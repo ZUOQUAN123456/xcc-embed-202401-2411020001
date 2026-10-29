@@ -1,0 +1,13 @@
+Dependencies for Project '0501_LEDWater', Target 'Target 1': (DO NOT MODIFY !)
+F (.\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c)(0x6AD732A4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx\Include-ID:\Uvision_data1\0501_LEDWater\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F407xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (.\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x6AD732A4)
+I (.\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h)(0x6AD732A4)
+I (.\CMSIS\Include\core_cm4.h)(0x6AD72FFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (.\CMSIS\Include\cmsis_version.h)(0x6AD72FFA)
+I (.\CMSIS\Include\cmsis_compiler.h)(0x6AD72FFA)
+I (.\CMSIS\Include\cmsis_armcc.h)(0x6AD72FFA)
+I (.\CMSIS\Include\mpu_armv7.h)(0x6AD72FFA)
+I (.\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x6AD732A4)
+F (.\Startup\startup_stm32f407xx.s)(0x6AD732A4)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Uvision_data1\0501_LEDWater\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F407xx SETA 1"--list .\listings\startup_stm32f407xx.lst --xref -o .\objects\startup_stm32f407xx.o --depend .\objects\startup_stm32f407xx.d)
+F (.\User\main.c)(0x6AE05221)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx\Include-ID:\Uvision_data1\0501_LEDWater\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F407xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
